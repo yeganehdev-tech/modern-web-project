@@ -1,2 +1,2 @@
 # modern-web-project
-My personal portfolio website
+A modern frontend web design project built with HTML, CSS, and JavaScript.
