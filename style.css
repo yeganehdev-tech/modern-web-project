@@ -1,0 +1,1005 @@
+*{
+    margin: 0;
+    padding: 0;
+     box-sizing: border-box;
+     scroll-behavior: smooth;
+    
+}
+
+
+html,
+body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+body{
+    margin: 0 auto;
+    padding: 0;
+    transition: .3s;
+
+}
+
+
+hr{
+    border: 1px solid rgba(17, 17, 17, 0.12);
+}
+
+
+.icon{
+    padding: 0 5px;
+    font-size: 20px;
+    color: #36be76;
+}
+
+.icon-black{
+    color: #444;
+}
+
+.icon-circle{
+    font-size: 10px;
+    color: #111111;
+}
+
+  .folder-icon{
+   margin-right: 50px;
+   width: 30px;
+   height: 30px;
+   
+}
+
+
+.header{
+    background-color: white;
+   
+
+}
+
+.header-content{
+border-bottom: 1px solid rgba(17, 17, 17, 0.12);;
+padding: 30px 20px;
+}
+
+
+a{
+    text-decoration: none;
+}
+
+.top-mune{
+    float: left;
+
+}
+
+.top-mune button{
+    margin: 0 5px;
+}
+
+
+
+.nav  ul li{
+display: inline-block;
+padding: 0 15px;
+}
+
+.nav ul li a{
+    color: #171717;
+    transition: color .2s ease-in-out;
+    font-size:20px ;
+    font-weight: 700;
+    
+}
+
+.nav ul li a:hover{
+    color:#b7f0d2;
+}
+
+.btn{
+    padding: 10px 20px;
+    border-radius:10px ;
+    border: 0;
+    cursor: pointer;
+    font-size: 20px;
+    color: #fff;
+    font-family: Raleway;
+}
+
+.btn-color{
+    padding: 5px 10px;
+    border-radius:10px ;
+    background-color: #c2ecd6;
+    color: #111111;
+}
+
+.btn-big{
+    padding: 15px 30px;
+}
+
+.btn-small{
+    border-radius: 5px;
+    padding: 10px 10px;
+background-color:#eae7e7 ;
+margin-bottom: 10px;
+}
+
+.btn-sosmall{
+    color: #111111;
+    border-radius: 20px;
+    margin: 0 10px;
+    font-size: 15px;
+    margin-bottom: 10px;
+}
+
+.color-green{
+    background-color: #b5f9d6;
+}
+
+.btn-green{
+    background-color: #315c45;
+    color: #fff;
+}
+
+.btngreen-icon{
+    margin: 0 30px;
+    width:200px ;
+    height: 40px;
+    text-align: center;
+    background-color: #315c45;
+    color: #fff;
+}
+
+.content{
+    background-color:#fff;
+    text-align: center;
+    margin-top: 30px;
+
+    
+}
+
+
+.content button{
+    
+    margin-bottom: 12px;
+}
+
+.content h1{
+    font-weight: 1000;
+    font-size: 42px ;
+    margin-bottom: 12px;
+    color:#111111;
+}
+
+.content p{
+    font-size: 22px;
+    color:#111111;
+    line-height: 40px;
+}
+
+
+
+.content-about{
+    display: inline-block;
+padding: 50px 10px;
+}
+
+.about-box{
+    flex: 1;
+display: inline-block;
+padding:10px  20px;
+border: 1px solid rgba(17, 17, 17, 0.12);
+border-radius: 15px;
+gap: 5px;
+font-weight: 700;
+font-size: 18px;
+}
+
+
+.footer{
+    border: 2px solid rgba(144,144,144,0.25);
+    padding: 30px 40px;
+    margin: 0 170px;
+    margin-bottom: 60px;
+    text-align: left;
+    border-radius:10px ;
+    background-color: #dbf6e8;
+}
+
+.footer hr{
+font-weight: 1000;
+    font-size: 42px ;
+    color:#111111;
+}
+
+.footer p{
+font-size: 22px;
+    color:#111111;
+    line-height: 40px;
+}
+
+.footer button {
+    margin-bottom: 12px;
+    margin-top: 12px;
+}
+
+/* --------------------------------------------------------------------- */
+.main{
+     background-color:#FFFFFF;
+}
+
+
+.main-header{
+    text-align: center;
+    padding: 50px 0;
+}
+
+.main-header h1{
+font-weight: 1000;
+    font-size: 42px ;
+    color: #111111;
+}
+
+.main-header p{
+font-size: 22px;
+    line-height: 40px;
+    color:#111111;
+}
+
+.main-header button{
+    margin-bottom: 12px;
+}
+
+.main-header input{
+    margin: 30px 40px;
+    padding: 15px 350px;
+    border-radius: 15px;
+    border: 1px solid rgba(17, 17, 17, 0.12);
+    font-size: 20px;
+
+}
+
+
+
+.main-content{
+display: flex; /* با این خط، همه فرزندان داخلش کنار هم قرار می‌گیرند */
+    justify-content: space-between; /* فاصله‌گذاری بین باکس‌ها */
+width:85% ;
+margin: 0 auto;
+}
+
+.box-main-content{
+    flex: 1; /* این یعنی هر سه باکس به یک اندازه فضای موجود را تقسیم کنند */
+    background-color: #315c45 ;
+    padding: 50px 70px ;
+    border-radius:15px ;
+    width: calc(calc(100% /4) - 82px);
+    /* border: 1px solid rgba(17, 17, 17, 0.12); */
+    margin: 0 10px;
+    
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+   
+}
+
+.box-main-content:hover{
+    /* background-color: #c2ecd6; */
+    border: 2px solid #b59b74;
+    transform: scale(1.5);
+    transition: 2s;
+}
+
+.box-main-content h3{
+    font-weight: 900;
+    font-size: 20px ;
+    margin-bottom: 11px;
+    color:#b59b74;
+}
+
+.box-main-content p{
+    font-size: 16px;
+    color:#ffffff;
+    line-height: 25px;
+}
+
+.main-content .box-main-content button{
+    background-color: #FFFFFF;
+    margin-bottom: 30px;
+    border-radius: 999px;
+}
+
+
+.main-footer{
+    text-align: center;
+    padding: 50px 0;
+}
+
+.main-footer h1{
+font-weight: 1000;
+    font-size: 42px ;
+    color: #111111;
+}
+
+.main-footer p{
+font-size: 22px;
+color:#111111;
+    line-height: 40px;
+}
+
+.main-footer button{
+    margin-bottom: 12px;
+}
+
+/* ------------------------------------------------- */
+
+.part-two{
+    margin: 24px 12px;
+}
+
+.part-two-topmune{
+    border: 1px solid rgba(17, 17, 17, 0.12);
+    padding: 40px 30px;
+    border-radius: 15px;
+    margin: 0 20px;
+    margin-bottom: 12px ;
+    
+}
+
+
+
+
+.part-two-topmune h1{
+    font-weight: 1000;
+    font-size: 42px ;
+    color: #111111;
+    transition: 0.5s;
+}
+
+.part-two-topmune h1:hover{
+color: #b59b74;
+}
+
+.part-two-topmune p{
+font-size: 22px;
+    line-height: 40px;
+    color:#111111;
+}
+
+.part-two-content{
+    display: flex;
+    padding: 40px 30px;
+    
+}
+
+.part-two-content ul li{
+    display: inline-block;
+    border: 1px solid rgba(17, 17, 17, 0.12);
+    padding: 10px 20px;
+    border-radius: 10px;
+    gap: 5px;
+    transition: .5s;
+    background-color: #315c45;
+}
+
+.part-two-content ul li a{
+    display: inline-block;
+color:#b59b74;
+}
+
+.part-two-content ul li:hover{
+    background-color: #FFFFFF;
+}
+ 
+.part-two-content input{
+width:250px ;
+height: 50px ;
+text-align: center;
+    border-radius: 10px;
+    border: 1px solid #b59b74;
+margin-left: 50px;
+}
+
+.part-two-content input::placeholder{
+    color:#111111;
+}
+
+.part-two-content select{
+    padding: 5px 40px;
+    border-radius: 10px;
+    border: 1px solid #b59b74;
+    margin-right: 180px;
+
+}
+
+.part-two-about{
+      display: flex; /* با این خط، همه فرزندان داخلش کنار هم قرار می‌گیرند */
+    justify-content: space-between; /* فاصله‌گذاری بین باکس‌ها */
+width:85% ;
+margin: 30px auto;
+}
+
+.box-part-two-about{
+    flex: 1; /* این یعنی هر سه باکس به یک اندازه فضای موجود را تقسیم کنند */
+    padding: 30px 40px ;
+    border-radius:15px ;
+    width: calc(calc(100% /4) - 77px);
+    border: 1px solid rgba(17, 17, 17, 0.12); 
+    margin: 0 20px;
+    margin-bottom: 30px;
+}
+
+.part-two-about .box-part-two-about:hover{
+    transform: scale(1.3);
+    transition: 2s;
+}
+
+
+.box-part-two-about h3{
+    text-align: right;
+    font-size: 20px;
+    font-weight: 800;
+    color: #111111;
+    margin-bottom: 12px;
+}
+
+.box-part-two-about p{
+    font-size:15px ;
+    color: #858585;
+    margin-bottom: 12px;
+}
+
+.box-part-two-about ul li{
+    display: inline-block;
+    margin-bottom: 10px;
+}
+
+
+.img{
+    width: 250px;
+    height: 170px;
+    border-radius: 15px;
+    margin: 10px 10px;
+}
+
+/* ------------------------------------------- */
+.section {
+    width: 100vw;
+    margin-left: calc((100% - 100vw) / 2);
+    margin-right: calc((100% - 100vw) / 2);
+
+    min-height: 300px;
+
+    padding: 60px 50px;
+    box-sizing: border-box;
+
+    background-color: #315c45;
+    color: #ffffff;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 40px;
+
+    direction: rtl;
+}
+
+
+.section .box-footer-part {
+    flex: 1;
+    margin: 0;
+    padding: 0;
+}
+
+.section h1 {
+    color: #b59b74;
+    margin-bottom: 15px;
+}
+
+.section h4 {
+    color: #b59b74;
+    margin-bottom: 15px;
+    font-size: 25px;
+}
+
+.section p {
+    color: #ffffff;
+    line-height: 2;
+    font-size: 20px;
+}
+
+.section p:hover{
+    color: #b59b74;
+    transform: scale(1.3);
+    transition: 2s;
+}
+
+.section ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.section ul li{
+    margin: 7px 0;
+}
+
+
+
+.section input {
+    padding: 12px 15px;
+    width: 250px;
+    max-width: 100%;
+    box-sizing: border-box;
+    border-radius: 8px;
+    border: 1px solid #b59b74;
+    background:#FFFFFF;
+    color: #315c45;
+}
+
+
+
+
+.part-two > .section {
+    width: calc(100% + 24px);
+    margin-left: -12px;
+    margin-right: -12px;
+    box-sizing: border-box;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* =========================================
+   RESPONSIVE DESIGN
+   ========================================= */
+
+
+/* ---------- Tablet ---------- */
+
+@media (max-width: 992px) {
+
+    /* Header */
+
+    .header-content {
+        padding: 20px;
+    }
+
+    .nav ul li {
+        padding: 0 8px;
+    }
+
+    .nav ul li a {
+        font-size: 17px;
+    }
+
+
+    /* Hero */
+
+    .content h1 {
+        font-size: 36px;
+    }
+
+    .content p {
+        font-size: 19px;
+        line-height: 32px;
+    }
+
+    .content-about {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 10px;
+        padding: 30px 10px;
+    }
+
+    .about-box {
+        margin: 0;
+    }
+
+
+    /* Green box */
+
+    .footer {
+        margin: 0 50px 40px;
+    }
+
+
+    /* Main */
+
+    .main-header {
+        padding: 40px 20px;
+    }
+
+    .main-header h1 {
+        font-size: 36px;
+    }
+
+    .main-header input {
+        width: 80%;
+        padding: 15px 20px;
+        margin: 25px auto;
+    }
+
+
+    /* Main cards */
+
+    .main-content {
+        width: 90%;
+        flex-wrap: wrap;
+        gap: 15px;
+    }
+
+    .box-main-content {
+        width: calc(50% - 15px);
+        padding: 35px 25px;
+        margin: 0;
+    }
+
+    .box-main-content:hover {
+        transform: scale(1.03);
+    }
+
+
+    /* Products filters */
+
+    .part-two-content {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 15px;
+        align-items: center;
+    }
+
+    .part-two-content input {
+        width: 100%;
+        margin: 0;
+        padding: 12px 20px;
+    }
+
+    .part-two-content select {
+        margin: 0;
+    }
+
+
+    /* Product cards */
+
+    .part-two-about {
+        width: 90%;
+        flex-wrap: wrap;
+        gap: 20px;
+    }
+
+    .box-part-two-about {
+        width: calc(50% - 20px);
+        margin: 0;
+        padding: 25px;
+    }
+
+    .img {
+        width: 100%;
+        height: auto;
+        margin: 0 0 15px;
+    }
+
+
+    /* Footer */
+
+    .section {
+        width: 100%;
+        margin: 0;
+        padding: 50px 30px;
+        flex-wrap: wrap;
+    }
+
+    .section .box-footer-part {
+        flex: 1 1 45%;
+    }
+}
+
+
+
+/* ---------- Mobile ---------- */
+
+@media (max-width: 600px) {
+
+    /* General */
+
+    body {
+        width: 100%;
+        overflow-x: hidden;
+    }
+
+
+    /* Header */
+
+    .header-content {
+        padding: 15px;
+        text-align: center;
+    }
+
+    .top-mune {
+        float: none;
+        margin-bottom: 20px;
+    }
+
+    .top-mune button {
+        margin: 3px;
+    }
+
+
+    /* Navigation */
+
+    .nav ul {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 5px;
+    }
+
+    .nav ul li {
+        display: block;
+        padding: 5px;
+    }
+
+    .nav ul li a {
+        font-size: 15px;
+    }
+
+
+    /* Hero */
+
+    .content {
+        padding: 0 15px;
+        margin-top: 20px;
+    }
+
+    .content h1 {
+        font-size: 28px;
+        line-height: 1.5;
+    }
+
+    .content p {
+        font-size: 16px;
+        line-height: 30px;
+    }
+
+    .content p br {
+        display: none;
+    }
+
+
+    /* About boxes */
+
+    .content-about {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 10px;
+        padding: 25px 0;
+    }
+
+    .about-box {
+        padding: 12px 8px;
+        margin: 0;
+        font-size: 14px;
+    }
+
+    .about-box .icon {
+        font-size: 17px;
+    }
+
+
+    /* Green CTA box */
+
+    .footer {
+        margin: 10px 15px 40px;
+        padding: 25px 20px;
+        text-align: center;
+    }
+
+    .footer p {
+        font-size: 16px;
+        line-height: 30px;
+    }
+
+    .footer p br {
+        display: none;
+    }
+
+
+    /* Main */
+
+    .main-header {
+        padding: 35px 15px;
+    }
+
+    .main-header h1 {
+        font-size: 28px;
+        line-height: 1.5;
+    }
+
+    .main-header p {
+        font-size: 16px;
+        line-height: 30px;
+    }
+
+    .main-header input {
+        width: 100%;
+        margin: 20px 0;
+        padding: 13px 15px;
+        font-size: 16px;
+    }
+
+
+    /* Main cards */
+
+    .main-content {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        padding: 0 15px;
+        gap: 15px;
+    }
+
+    .box-main-content {
+        width: 100%;
+        padding: 30px 25px;
+        margin: 0;
+    }
+
+    .box-main-content:hover {
+        transform: translateY(-3px);
+    }
+
+
+    /* Main footer */
+
+    .main-footer {
+        padding: 40px 15px;
+    }
+
+    .main-footer h1 {
+        font-size: 28px;
+        line-height: 1.5;
+    }
+
+    .main-footer p {
+        font-size: 16px;
+        line-height: 30px;
+    }
+
+
+    /* Products */
+
+    .part-two {
+        margin: 15px 0;
+    }
+
+    .part-two-topmune {
+        margin: 0 15px 15px;
+        padding: 25px 20px;
+    }
+
+    .part-two-topmune h1 {
+        font-size: 27px;
+        line-height: 1.5;
+    }
+
+    .part-two-topmune p {
+        font-size: 16px;
+        line-height: 30px;
+    }
+
+
+    /* Product filters */
+
+    .part-two-content {
+        display: flex;
+        flex-direction: column;
+        padding: 20px 15px;
+        gap: 15px;
+    }
+
+    .part-two-content input {
+        width: 100%;
+        margin: 0;
+        padding: 13px 15px;
+    }
+
+    .part-two-content ul {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 8px;
+    }
+
+    .part-two-content ul li {
+        margin: 0;
+        padding: 8px 12px;
+    }
+
+    .part-two-content select {
+        width: 100%;
+        margin: 0;
+        padding: 12px;
+    }
+
+
+    /* Product cards */
+
+    .part-two-about {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        padding: 0 15px;
+        gap: 20px;
+        margin: 20px 0;
+    }
+
+    .box-part-two-about {
+        width: 100%;
+        margin: 0;
+        padding: 20px;
+    }
+
+    .box-part-two-about:hover {
+        transform: translateY(-3px);
+    }
+
+    .img {
+        width: 100%;
+        height: auto;
+        margin: 0 0 15px;
+    }
+
+
+    /* Product buttons */
+
+    .btngreen-icon {
+        width: 100%;
+        margin: 5px 0;
+    }
+
+    .btn-sosmall {
+        margin: 0 3px 8px;
+        font-size: 13px;
+    }
+
+
+    /* Footer */
+
+    .section {
+        width: 100%;
+        margin: 0;
+        padding: 40px 20px;
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+    }
+
+    .section .box-footer-part {
+        width: 100%;
+        flex: none;
+    }
+
+    .section h1 {
+        font-size: 22px;
+    }
+
+    .section h4 {
+        font-size: 22px;
+    }
+
+    .section p {
+        font-size: 16px;
+    }
+
+    .section input {
+        width: 100%;
+    }
+
+}
